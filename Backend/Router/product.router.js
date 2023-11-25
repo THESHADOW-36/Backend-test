@@ -1,8 +1,8 @@
 import { Router } from "express";
-import { login, register } from "../Controllers/auth.controller.js";
+import { addProduct } from "../Controllers/product.controller.js";
 
 const product = Router();
 
-product.post("/add-product",addProduct)
+product.post("/add-product", addProduct)
 
 export default product;
